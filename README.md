@@ -1,1 +1,1 @@
-# JavaFX_Minesweeper
+# JavaFX Minesweeper
