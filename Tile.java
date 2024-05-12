@@ -47,8 +47,6 @@ public class Tile extends StackPane{
         return new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
-                    if(event !=null)
-                    System.out.println(event.getButton());
                     if(event != null && event.getButton() == MouseButton.SECONDARY){
                         if(!isFlagged){
                             isFlagged = true;
